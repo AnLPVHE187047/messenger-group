@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join Messenger Group</title>
+  <script>
+    // Thử mở app Messenger
+    window.location.href = "fb-messenger://m.me/j/AbbFS7oSwvVbmCct/";
+    // Nếu không có app, sau 2 giây mở web Messenger
+    setTimeout(function(){
+      window.location.href = "https://m.me/j/AbbFS7oSwvVbmCct/";
+    }, 2000);
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 40vh;
+    }
+  </style>
+</head>
+<body>
+  <p>🔄 Đang mở nhóm Messenger...</p>
+</body>
+</html>
